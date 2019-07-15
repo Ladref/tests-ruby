@@ -1,7 +1,9 @@
 require_relative '../lib/04_simon_says'
 
 describe "Simon says" do
+
   describe "echo" do
+
     it "should echo hello" do
       expect(echo("hello")).to eq("hello")
     end
@@ -12,6 +14,7 @@ describe "Simon says" do
   end
 
   describe "shout" do
+
     it "should shout hello" do
       expect(shout("hello")).to eq("HELLO")
     end
